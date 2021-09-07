@@ -27,7 +27,7 @@ const Login = () => {
                     <input type="email" placeholder="Email Address" name='email' value={email} onChange={e => onChange(e)} required />
                 </div>
                 <div className="form-group">
-                    <input type="password" placeholder="Password" minlength="6" name='password' value={password} onChange={e => onChange(e)}/>
+                    <input type="password" placeholder="Password" minLength="6" name='password' value={password} onChange={e => onChange(e)}/>
                 </div>
                 <input type="submit" value="Login" className="btn btn-primary" />
             </form>
