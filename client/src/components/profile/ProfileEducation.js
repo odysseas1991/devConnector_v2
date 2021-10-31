@@ -24,7 +24,7 @@ const ProfileEducaton = ({ education: { school, degree, fieldofstudy, current, t
 }
 
 ProfileEducaton.propTypes = {
-    education: PropTypes.array.isRequired
+    education: PropTypes.object.isRequired
 }
 
 export default ProfileEducaton
