@@ -18,7 +18,7 @@ const PostItem = ({ auth, post: { _id, text, name, avatar, user, likes, comments
                       <p className="my-1">
                           {text}
                       </p>
-                      <p class='post-date'>Posted on <Moment format='YYYY/MM/DD'>{date}</Moment></p>
+                      <p className='post-date'>Posted on <Moment format='YYYY/MM/DD'>{date}</Moment></p>
                       <button type='button' className="btn btn-light">
                           <i className="fas fa-thumbs-up"></i>{' '}
                           <span> {likes.length > 0 && (
@@ -35,7 +35,7 @@ const PostItem = ({ auth, post: { _id, text, name, avatar, user, likes, comments
                       </Link>
                     {!auth.loading && user === auth.user._id && (
                         <button type='button' className='btn btn-danger'>
-                            <i class='fas fa-times'/>
+                            <i className='fas fa-times'/>
                         </button>
                     )}
                   </div>
