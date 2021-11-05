@@ -1,6 +1,0 @@
-{
-    "mongoURI": "mongodb+srv://odysseas1991:odysseas1991@devconnectorcluster.2ul4o.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken",
-    "githubClientId": "6b58d7ce387695aca56b",
-    "githubSecret": "132f0d274c477c2aa6f4e87309a5dcd51f2e8211"
-}
