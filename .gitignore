@@ -1,5 +1,4 @@
 node_modules/
-config/default.json
 
 # ignore config file 
 config/default.json
